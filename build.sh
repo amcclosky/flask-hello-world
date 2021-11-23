@@ -14,7 +14,7 @@ mkdir -p ${PIPX_HOME}
 mkdir -p ${PIPX_BIN_DIR}
 
 ${TOOLS_VENV}/bin/pip install pipx
-${PIPX_BIN_DIR}/pipx install supervisor
+${TOOLS_VENV}/bin/pipx install supervisor
 
 echo "Install depenencies w/ poetry"
 pip install -r requirements.txt
